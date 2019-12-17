@@ -1,7 +1,7 @@
-@extends('')
+@extends('base')
 @section('employees','active')
-@section('')
-<a href="{{route('')}}" class="btn btn-primary">Tambah Data</a>
+@section('konten')
+<a href="{{route('employees.create')}}" class="btn btn-primary">Tambah Data</a>
 <br/><br/>
 <table class="table table-bordered table-hover">
     <thead>

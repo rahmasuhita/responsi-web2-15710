@@ -31,6 +31,12 @@ $factory->define(User::class, function (Faker $faker) {
 //  factory jobs
 //  kolom 'name' => faker->jobTitle
 
+$factory->define(Jobs::class, function (Faker $faker) {
+    return [
+        'name' => $faker->jobTitle,
+    ];
+});
+
 //  factory employees
 //  kolom 'id_jobs' => faker->numberBetween() numberBetween adalah id_jobs minimal dan id_jobs maksimal yang ada pada tabel jobs
 //  kolom 'name' => faker->name
@@ -38,4 +44,13 @@ $factory->define(User::class, function (Faker $faker) {
 //  kolom 'phone' => faker->phoneNumber
 //  kolom 'address' => faker->address
 
+$factory->define(Employees::class, function (Faker $faker) {
+    return [
+        'id_jobs' => $faker->numberBetween(1,10),
+        'name' => $faker->name,
+        'email' => $faker->email,
+        'phone' => $faker->phoneNumber,
+        'address' => $faker->address,
+    ];
+});
 // documentation https://github.com/fzaninotto/Faker

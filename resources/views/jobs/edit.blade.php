@@ -1,7 +1,7 @@
-@extends('')
+@extends('base')
 @section('jobs','active')
-@section('')
-<form action="{{route('',$jobs->id_jobs)}}" method="POST">
+@section('konten')
+<form action="{{route('jobs.update',$jobs->id_jobs)}}" method="POST">
   @csrf
   @method('PUT')
   <div class="form-group">

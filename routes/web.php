@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/rahma', function () {
+    return view('rahma');
+});
+
 Route::resource('/jobs', 'JobsController');
 Route::resource('/employees', 'EmployeesController@');
 Auth::routes();
