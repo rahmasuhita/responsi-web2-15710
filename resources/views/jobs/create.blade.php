@@ -1,6 +1,6 @@
-@extends('')
+@extends('base')
 @section('jobs','active')
-@section('')
+@section('konten')
 <form action="{{route('')}}" method="POST">
   @csrf
   <div class="form-group">

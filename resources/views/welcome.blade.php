@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>UAS WEB</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -82,11 +82,12 @@
             <div class="content">
                 <div class="title m-b-md">
                     <!-- Isikan dengan username akun github anda -->
+                    <h1>rahmasuhita</h1>
                 </div>
 
                 <div class="links">
                     <!-- ganti url dengan link github anda -->
-                    <!-- <a href="#">GitHub</a> -->
+                    <a href="https://github.com/rahmasuhita/responsi-web2-15710.git">GitHub</a> -->
                 </div>
             </div>
         </div>
